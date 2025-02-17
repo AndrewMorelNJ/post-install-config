@@ -21,7 +21,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - SLA Configuration
 - Ticket Statuses
 - Ticket Priorities
-- Testinng & Validation
+- Testing & Validation
 
 <h2>Configuration Steps</h2>
 
@@ -48,7 +48,7 @@ http://localhost/osTicket
 </p>
 
 <p>
-Acknowledge Agent Panel 
+Acknowledge "Agent Panel" on the top right corner. (switches to "Admin" when clicked)
 </p>
 
 <p>
@@ -56,7 +56,7 @@ Acknowledge Agent Panel
 </p>
 
 <p>
-Acknowledge Admin Panel
+Acknowledge "Admin Panel" on the top right corner. (switches to "Agent" when clicked)
 </p>
 
 <p>
@@ -66,9 +66,9 @@ Acknowledge Admin Panel
 <p>
 Configure Roles (for grouping permissions)
   
-Admin Panel -> Agents -> Roles
+Click on Admin Panel, Agents, and then Roles.
 
-Update to "Supreme Admin"
+Update to "Supreme Admin".
 </p>
 
 <p>
@@ -78,7 +78,7 @@ Update to "Supreme Admin"
 <p>
 Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
   
-Admin Panel -> Agents -> Departments
+Click on Admin Panel, Agents, and then Departments.
 </p>
 
 <p>
@@ -86,7 +86,7 @@ Admin Panel -> Agents -> Departments
 </p>
 
 <p>
-Add new Department named "SysAdmins"
+Add new Department named "SysAdmins".
 </p>
 
 <p>
@@ -94,11 +94,9 @@ Add new Department named "SysAdmins"
 </p>
 
 <p>
-Configure Teams
-  
-Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+To configure teams click on Admin Panel, Agents, and then Team. (Pull Agents from different Departments)
 
-Online Banking
+Change name to Online Banking.
 </p>
 
 <p>
@@ -106,11 +104,11 @@ Online Banking
 </p>
 
 <p>
-Allow anyone to create tickets
+Allow anyone to create tickets by clicking on Admin Panel, Settings, User Settings. 
   
-Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
+(UNCHECK: unregistered users can create tickets, as highlighted above)
 
-Registration Required: Require registration and login to create tickets 
+Registration Required: Require registration and login to create tickets. 
 </p>
 
 <p>
@@ -120,7 +118,7 @@ Registration Required: Require registration and login to create tickets
 <p>
 Configure Agents (workers)
   
-Admin Panel -> Agents -> Add New
+Click on Admin Panel, Agents, and Add New.
 
 <p>
 <img src="https://i.imgur.com/q8j6T9x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -135,9 +133,7 @@ Add Agents: Jane (Dept: SysAdmins) & John (Dept: Support)
 </p>
 
 <p>
-Configure Users (customers)
-  
-Agent Panel -> Users -> Add New
+To Configure Users (customers) click on Agent Panel, Users, Add New.
 </p>
 
 <p>
@@ -153,9 +149,7 @@ Add Users: Karen & Ken
 </p>
 
 <p>
-Configure SLA
-  
-Admin Panel -> Manage -> SLA
+To configure SLA click on Admin Panel, Manage, SLA
 </p>
 
 <p>
@@ -175,15 +169,7 @@ Sev-C (Grace Period: 8 hours, Business Hours)
 </p>
 
 <p>
-Configure Help Topics (For when users create a ticket)
-  
-Admin Panel -> Manage -> Help Topics
+To configure Help Topics (For when users create a ticket) click on Admin Panel, Manage, and Help Topic.
 
-Business Critical Outage
-
-Personal Computer Issues
-
-Equipment Request
-
-Password Reset
+Now Assign the Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset.
 </p>
